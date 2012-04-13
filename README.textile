@@ -1,0 +1,3 @@
+h1. Representação vetorial de Weyl
+
+Nesta Atividade Interativa (AI) o usuário deve informar as componentes de um vetor v, aleatoriamente escolhido, na base {i,j} (segundo Hermann Weyl).
