@@ -4,50 +4,8 @@ building file list ... done
 AI_0059_SCO.zip
 index.html
 SCO/
-SCO/AI-0059.ggb
-SCO/AI_0059.html
-SCO/imsmanifest.xml
+SCO/.gitignore
 SCO/index.html
-SCO/css/
-SCO/css/style.css
-SCO/css/smoothness/
-SCO/css/smoothness/jquery-ui-1.8.19.custom.css
-SCO/css/smoothness/images/
-SCO/css/smoothness/images/ui-bg_flat_0_aaaaaa_40x100.png
-SCO/css/smoothness/images/ui-bg_flat_75_ffffff_40x100.png
-SCO/css/smoothness/images/ui-bg_glass_55_fbf9ee_1x400.png
-SCO/css/smoothness/images/ui-bg_glass_65_ffffff_1x400.png
-SCO/css/smoothness/images/ui-bg_glass_75_dadada_1x400.png
-SCO/css/smoothness/images/ui-bg_glass_75_e6e6e6_1x400.png
-SCO/css/smoothness/images/ui-bg_glass_95_fef1ec_1x400.png
-SCO/css/smoothness/images/ui-bg_highlight-soft_75_cccccc_1x100.png
-SCO/css/smoothness/images/ui-icons_222222_256x240.png
-SCO/css/smoothness/images/ui-icons_2e83ff_256x240.png
-SCO/css/smoothness/images/ui-icons_454545_256x240.png
-SCO/css/smoothness/images/ui-icons_888888_256x240.png
-SCO/css/smoothness/images/ui-icons_cd0a0a_256x240.png
-SCO/css/ui-lightness/
-SCO/css/ui-lightness/jquery-ui-1.8.5.custom.css
-SCO/css/ui-lightness/images/
-SCO/css/ui-lightness/images/ui-bg_diagonals-thick_18_b81900_40x40.png
-SCO/css/ui-lightness/images/ui-bg_diagonals-thick_20_666666_40x40.png
-SCO/css/ui-lightness/images/ui-bg_flat_10_000000_40x100.png
-SCO/css/ui-lightness/images/ui-bg_glass_100_f6f6f6_1x400.png
-SCO/css/ui-lightness/images/ui-bg_glass_100_fdf5ce_1x400.png
-SCO/css/ui-lightness/images/ui-bg_glass_65_ffffff_1x400.png
-SCO/css/ui-lightness/images/ui-bg_gloss-wave_35_f6a828_500x100.png
-SCO/css/ui-lightness/images/ui-bg_highlight-soft_100_eeeeee_1x100.png
-SCO/css/ui-lightness/images/ui-bg_highlight-soft_75_ffe45c_1x100.png
-SCO/css/ui-lightness/images/ui-icons_222222_256x240.png
-SCO/css/ui-lightness/images/ui-icons_228ef1_256x240.png
-SCO/css/ui-lightness/images/ui-icons_ef8c08_256x240.png
-SCO/css/ui-lightness/images/ui-icons_ffd27a_256x240.png
-SCO/css/ui-lightness/images/ui-icons_ffffff_256x240.png
-SCO/js/
-SCO/js/SCORM_API_wrapper.js
-SCO/js/jquery-1.4.2.min.js
-SCO/js/jquery-ui-1.8.6.custom.min.js
-SCO/js/scorm-config.js
 
-sent 413262 bytes  received 2020 bytes  830564.00 bytes/sec
-total size is 805463  speedup is 1.94
+sent 15100 bytes  received 1372 bytes  32944.00 bytes/sec
+total size is 805711  speedup is 48.91
