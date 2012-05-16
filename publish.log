@@ -3,9 +3,24 @@ building file list ... done
 ./
 AI_0059_SCO.zip
 index.html
-SCO/
-SCO/.gitignore
-SCO/index.html
+css/
+css/smoothness/
+css/smoothness/images/
+css/ui-lightness/
+css/ui-lightness/images/
+jar/
+jar/geogebra.jar
+jar/geogebra_algos.jar
+jar/geogebra_cas.jar
+jar/geogebra_export.jar
+jar/geogebra_gui.jar
+jar/geogebra_javascript.jar
+jar/geogebra_main.jar
+jar/geogebra_properties.jar
+jar/jlatexmath.jar
+jar/jlm_cyrillic.jar
+jar/jlm_greek.jar
+js/
 
-sent 15100 bytes  received 1372 bytes  32944.00 bytes/sec
-total size is 805711  speedup is 48.91
+sent 15295311 bytes  received 1489 bytes  6118720.00 bytes/sec
+total size is 15678856  speedup is 1.02
