@@ -8,6 +8,9 @@ var scorm = pipwerks.SCORM; // Seção SCORM
 scorm.version = "2004"; // Versão da API SCORM
 var PING_INTERVAL = 5 * 60 * 1000;  // milissegundos
 var pingCount = 0; // Conta a quantidade de pings enviados para o LMS
+var MAX_INIT_TRIES = 60;
+var init_tries = 0;
+var debug = true;
 
 // Inicia a AI.
 $(document).ready(function(){
@@ -30,14 +33,35 @@ $(document).ready(function(){
   $('#button2').button().click(evaluateExercise);
   $('#button3').button().click(reloadPage); 
 
-  // Sorteia as coordenadas do ponto P
-  var xcoord = -5 + Math.floor(11 * Math.random());
-  var ycoord = -3 + Math.floor( 7 * Math.random());
-  if (xcoord == 0 && ycoord == 0) ycoord = 1; // Só para não dar um vetor (0,0)
-  document.ggbApplet.setCoords('P', xcoord, ycoord);
-  
-  initAI();
+  checkCallbacks();
 });
+
+function checkCallbacks () {
+	var t2 = new Date().getTime();
+	var ok = false;
+	try {
+		// Sorteia as coordenadas do ponto P
+		var xcoord = -5 + Math.floor(11 * Math.random());
+		var ycoord = -3 + Math.floor( 7 * Math.random());
+		if (xcoord == 0 && ycoord == 0) ycoord = 1; // Só para não dar um vetor (0,0)
+		document.ggbApplet.setCoords('P', xcoord, ycoord);
+		ok = true;
+		message("ok");
+	}
+	catch(error) {
+		++init_tries;
+		
+		if (init_tries > MAX_INIT_TRIES) {
+			alert("Carregamento falhou.");
+		}
+		else {
+			message("falhou");
+			setTimeout("checkCallbacks()", 1000);
+		}
+	}
+	
+	if(ok) initAI();
+}
 
 //Refresh da Página.
 function reloadPage()
@@ -294,5 +318,15 @@ log.error = function (message) {
   else {
     alert(message);
   }
+}
+
+// Mensagens de log
+function message (m) {
+	try {
+		if (debug) console.log(m);
+	}
+	catch (error) {
+		// Nada.
+	}
 }
 
