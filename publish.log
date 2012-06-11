@@ -1,8 +1,6 @@
 Copying from /c/Users/Maria Isabel/AIs/AI-0059 to cepa@arquivos.atp.usp.br:/work/PUBLICACAO/atividades-interativas/AI-0059
 building file list ... done
 ./
-AI-0059_SCO.zip
-css/
 
-sent 6368465 bytes  received 16417 bytes  4256588.00 bytes/sec
-total size is 15590855  speedup is 2.44
+sent 933 bytes  received 15 bytes  1896.00 bytes/sec
+total size is 15590855  speedup is 16446.05
