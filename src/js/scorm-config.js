@@ -61,7 +61,6 @@ function checkCallbacks () {
 		if (xcoord == 0 && ycoord == 0) ycoord = 1; // Só para não dar um vetor (0,0)
 		document.ggbApplet.setCoords('P', xcoord, ycoord);
 		ok = true;
-		message("ok");
 	}
 	catch(error) {
 		++init_tries;
@@ -70,7 +69,6 @@ function checkCallbacks () {
 			alert("Carregamento falhou.");
 		}
 		else {
-			message("falhou");
 			setTimeout("checkCallbacks()", 1000);
 		}
 	}
